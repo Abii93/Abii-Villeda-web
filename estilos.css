@@ -1,0 +1,240 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    font-size: 30px;
+    box-sizing: border-box;
+    flex flex-wrap: wrap;
+
+}
+
+.image-perfil {
+    padding-top: 150px;
+    width: 100%;
+    height: auto
+}
+
+
+.text-title {
+    padding-top: 350px;
+    text-align: justify;
+    font-family: 'nexa;
+    font-size: 12px;
+    padding-left: 35px;
+}
+
+h1 {
+
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+p {
+
+    text-align: center;
+    font-size: 14px;
+}
+
+
+ul {
+    display: inline-flex;
+    text-align: center;
+    align-content: stretch;
+}
+
+ul li {
+    list-style: none;
+    padding: 25px 25px;
+    padding-top: 10%;
+
+}
+
+ul a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 90%;
+    text-align: center;
+    cursor: auto;
+
+}
+
+
+.text-portafolio {
+
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 15px;
+
+}
+
+.text-parrafo {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+
+
+.hr {
+    border: 15px;
+}
+
+
+
+.titular {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: midnightblue;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.descripcion {
+    position: fixed display: flex;
+}
+
+#contacto {
+    background-color: #1A054F;
+    padding: 50px 0;
+    color: lightcoral;
+    margin-top: 5%;
+}
+
+#contacto h1 {
+    color: lightcoral;
+}
+
+.formulario input {
+    width: 450px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.formulario button {
+    padding: 12px 15px;
+    background-color: lightcoral;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+}
+
+#contacto ul {
+    justify-content: center;
+
+}
+
+
+
+footer p {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.image-iconos {
+    padding-top: 45px;
+
+}
+
+@media only screen and (max-width:1024px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .col-4,
+    .col-7,
+    .col-5 {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-7,
+    .col-5 {
+        width: 50%;
+
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+
+    .col-7,
+    .col-5 {
+        width: 100%;
+
+
+    }
+
+    .col-4 {
+        width: 100%;
+
+    }
+
+    #logo,
+    #naw {
+        float: none;
+        text-align: center;
+    }
+
+    #nav ul {
+        justify-content: center;
+    }
+
+    .espacio-arriba {
+        margin-top: 0;
+    }
+
+    /* Diseño para celulares */
+    #columna1,
+    #columna2,
+    #columna3 {
+        float: none;
+        width: 100%;
+    }
+
+    #Features ul {
+        display: block;
+    }
+
+    .formulario input {
+        width: 60%;
+    }
+}
+
+/* Diseño para tabletas */
+@media screen and (min-width: 800px) {
+
+    #columna1,
+    #columna2 {
+        float: center;
+        width: 50%;
+    }
+}
+
+/* Diseño para PC */
+@media screen and (min-width: 1025px) {
+
+    #columna1,
+    #columna2,
+    #columna3 {
+        float: center;
+        width: 33%;
+    }
